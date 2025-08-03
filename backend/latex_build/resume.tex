@@ -1,0 +1,154 @@
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage[english]{babel}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\tabcolsep}{0in}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\pdfgentounicode=1
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{\item\small{#1\vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4}
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+  \textbf{\Huge \scshape Mohammed Al Ani} \\ \vspace{1pt}
+  \small +1 555-555-5555 $|$ \href{mailto:mohd.otmn@gmail.com}{\underline{mohd.otmn@gmail.com}} $|$ 
+  \href{https://mohammedalani.ca}{\underline{mohammedalani.ca}}
+\end{center}
+
+% --- EDUCATION ---
+
+\section{Education}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {University of Waterloo}{Expected 2029}
+    {Bachelor of Applied Science in Mechatronics Engineering — GPA: 3.94/4}{}
+
+\resumeSubHeadingListEnd 
+
+
+% --- EXPERIENCE ---
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {\href{}{Big Tech}}{Feb. 2025 – Aug. 2025}
+    {Software Engineer}{}
+    \resumeItemListStart
+      \resumeItem{Analyzed and cleaned large-scale industry datasets (200K+ rows) using \textbf{Python}, \textbf{Pandas}, and \textbf{NumPy} to uncover business insights}
+\resumeItem{Created interactive visualizations using \textbf{Matplotlib} and \textbf{Seaborn} to help clients understand operational trends and reduce inefficiencies}
+\resumeItem{Built automated data pipelines with \textbf{Python} that streamlined reporting workflows, saving clients 10+ hours per week}
+\resumeItem{Collaborated with product and sales teams to deliver data-backed insights that improved client retention by 15\%}
+    \resumeItemListEnd
+
+
+  \resumeSubheading
+    {\href{}{Startup}}{Oct. 2024 – Present}
+    {Firmware Engineer}{}
+    \resumeItemListStart
+      \resumeItem{Developed firmware in \textbf{Python} (pySerial) and \textbf{C++} for real-time energy monitoring and optimization}
+\resumeItem{Integrated data logging scripts using \textbf{Python}, \textbf{Pandas}, \textbf{Matplotlib} to analyze energy trends}
+\resumeItem{Automated testing \& debugging scripts in \textbf{Python} to identify issues in the power system, reducing errors by 30\%}
+\resumeItem{Used \textbf{Git} for version control, ensuring efficient collaboration and maintaining comprehensive documentation}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+% --- PROJECTS ---
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{Full Stack NLP Chat Bot} $|$ \emph{}}{}
+    \resumeItemListStart
+      \resumeItem{Implemented \textbf{NLTK}-based natural language understanding (85\% intent recognition accuracy) and integrated \textbf{spaCy}-based sentiment analysis (92\% emotional tone accuracy). Developed with \textbf{Python}, \textbf{Flask}, \textbf{JavaScript}, and deployed a responsive web UI.}
+    \resumeItemListEnd
+
+
+  \resumeProjectHeading
+    {\textbf{CarPal – AI-Powered Car Image Analyzer} $|$ \emph{}}{}
+    \resumeItemListStart
+      \resumeItem{Built full-stack AI image analyzer with \textbf{React}, \textbf{Express.js}, \textbf{Tailwind}, and \textbf{Google Gemini API}. Extracted car metadata from images, featured image previews, JWT auth, and animated dashboard (50+ users).}
+    \resumeItemListEnd
+
+
+  \resumeProjectHeading
+    {\textbf{Expressjs.Yourself – Blog Platform} $|$ \emph{}}{}
+    \resumeItemListStart
+      \resumeItem{Lightweight \textbf{Express.js} blog system supporting 100+ posts. Used \textbf{JWT}, \textbf{bcrypt}, secure cookies, HTML sanitization, and dynamic post dashboard with \textbf{Tailwind CSS}.}
+    \resumeItemListEnd
+
+
+  \resumeProjectHeading
+    {\textbf{CurveFit Pro - Advanced Data Modeling} $|$ \emph{}}{}
+    \resumeItemListStart
+      \resumeItem{Developed \textbf{Streamlit}-based tool for regression (linear, exponential, polynomial). Used \textbf{SciPy} \& \textbf{NumPy} to analyze 10K+ data points from uploaded CSVs and generate visualizations.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+% --- TECHNICAL SKILLS ---
+
+\section{Technical Skills}
+\setlist[itemize]{itemsep=1pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+\begin{itemize}[leftmargin=0.15in, label={}]
+
+  \item \textbf{Languages}: Python, JavaScript, C++, Java, SQL, MATLAB, HTML/CSS
+
+
+  \item \textbf{Frameworks/Libraries}: React, NumPy, Flask, Django, Node.js, TensorFlow, Pandas, OpenCV, SciPy, Bootstrap
+
+
+  \item \textbf{Software \& Tools}: Git, Docker, Jupyter, Streamlit, SPIKE Legacy, Figma, MS Azure, CLion, Spyder IDE, Anaconda
+
+
+  \item \textbf{Office Tools}: MS Office Suite, Google Workspace, Slack, MS Teams, Report Writing, Drafting, Excel Sheets, Power BI
+
+\end{itemize}
+
+\end{document}
