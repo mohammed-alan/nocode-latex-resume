@@ -81,8 +81,6 @@ The LaTeX source updates dynamically and the backend compiles it to PDF.
 
 A live preview of the generated PDF is displayed.
 
-Toggle the "Technical Skills" checkbox to change the skills section title.
-
 ## Notes
 Make sure LaTeX is properly installed and accessible in your system PATH for the backend to compile PDFs.
 
@@ -95,6 +93,7 @@ Mohammed Othman Al Ani
 
 
 ---
+
 
 
 
